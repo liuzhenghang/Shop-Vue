@@ -1,32 +1,33 @@
 <template>
 	<div class="main">
-		<div class="mine">
-			<!--我的begin-->
-			<div class="floor floor_one">
-				<img src="img/github.png" alt="" />
-				<p v-show="!isLogin">
-					<router-link to="/login">登录</router-link>/
-					<router-link to="/register">注册</router-link>
-				</p>
-				<p v-if="currentUser">
-					{{currentUser.username}}
-					<router-link to="/login">退出</router-link>
-				</p>
+    <h1>我的</h1>
+<!--		<div class="mine">-->
+<!--			&lt;!&ndash;我的begin&ndash;&gt;-->
+<!--			<div class="floor floor_one">-->
+<!--				<img src="img/github.png" alt="" />-->
+<!--				<p v-show="!isLogin">-->
+<!--					<router-link to="/login">登录</router-link>/-->
+<!--					<router-link to="/register">注册</router-link>-->
+<!--				</p>-->
+<!--				<p v-if="currentUser">-->
+<!--					{{currentUser.username}}-->
+<!--					<router-link to="/login">退出</router-link>-->
+<!--				</p>-->
 
-			</div>
-			<div class="floor floor_item floor_two flex-align-center flex-between">
-				<p>我的信息</p>
-				<i></i>
-			</div>
-			<div class=" floor floor_item floor_two flex-align-center flex-between">
-				<p>我的订单</p>
-				<i></i>
-			</div>
-			<div class="floor floor_item floor_two flex-align-center flex-between">
-				<p>我的地址</p>
-				<i></i>
-			</div>
-		</div>
+<!--			</div>-->
+<!--			<div class="floor floor_item floor_two flex-align-center flex-between">-->
+<!--				<p>我的信息</p>-->
+<!--				<i></i>-->
+<!--			</div>-->
+<!--			<div class=" floor floor_item floor_two flex-align-center flex-between">-->
+<!--				<p>我的订单</p>-->
+<!--				<i></i>-->
+<!--			</div>-->
+<!--			<div class="floor floor_item floor_two flex-align-center flex-between">-->
+<!--				<p>我的地址</p>-->
+<!--				<i></i>-->
+<!--			</div>-->
+<!--		</div>-->
 	</div>
 </template>
 

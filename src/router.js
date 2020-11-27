@@ -1,6 +1,8 @@
+// 导入Vue
 import Vue from 'vue'
 // 1:导入路由模块
 import VueRouter from 'vue-router'
+
 import Register from './pages/Register.vue'
 import Home from './pages/Home.vue'
 import Goods from './pages/Goods.vue'
@@ -37,10 +39,9 @@ const routes = [{
 		component: Register
 	}
 ]
-// 4创建路由实例     mode:'history'  去掉#
+// 4创建路由实例   ,把路由表（规则），应用到路由实例中
 const router = new VueRouter({
 	routes,
-	mode: 'history'
 });
 
 // 导出 路由模块
